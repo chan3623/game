@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Wordle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Noto+Sans+KR@wght@100&display=swap" rel="stylesheet">   
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"
+    integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="wordle.css">
+    
+</head>
+<body>
+    <h2 id="title">WORDLE</h2>
+    <div id="container" class="colors">
+        <div id="score">Score : 0</div>
+    </div>
+    <div id="message-container">
+        <span id="message1">Game Over...</span>
+        <span id="message2">Game Clear</span>
+    </div>
+    <div id="board"></div>
+    
+    <script src="wordle.js"></script>
+</body>
+</html>
